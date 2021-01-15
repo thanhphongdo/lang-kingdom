@@ -1,0 +1,369 @@
+{
+    "id": "1lOX5bV5gyE",
+    "title": "Working together",
+    "comment_id": "Tt2NRyVvvd0NCssXdLVN",
+    "type": "sentence",
+    "comment": 0,
+    "is_new": 0,
+    "conversation": 0,
+    "total": 19,
+    "data": [
+        {
+            "id": "vp25vxYqe0B",
+            "dic_all_id": "QbJ5npRPb0p",
+            "text": "You are kind and patient.",
+            "type": "sentence",
+            "phonetic": "juː ɑːr kaɪnd ænd ˈpeɪ.ʃənt",
+            "sound": "https://static.langkingdom.com/media/8/813d451a32c2ee1e5a2f5fd4f470b284.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Bạn tốt bụng và kiên nhẫn.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "EA7m9bR730R",
+            "dic_all_id": "7R60ZZxVn0K",
+            "text": "My boss is easy to get along with.",
+            "type": "sentence",
+            "phonetic": "maɪ bɑːs ɪz ˈiː.zi tuː ɡet əˈlɑːŋ wɪð",
+            "sound": "https://static.langkingdom.com/media/1/d985da8e92dd2e612d6b24230b23a647.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Sếp của tôi rất dễ gần."
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "DAY5E2d79md",
+            "dic_all_id": "3z7mrkVZp0v",
+            "text": "He seems to be kind and patient.",
+            "type": "sentence",
+            "phonetic": "hiː siːmz tuː biː kaɪnd ænd ˈpeɪ.ʃənt",
+            "sound": "https://static.langkingdom.com/media/8/d53fc70b5c2235c5b1d066d6ab3249f1.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Anh ấy có vẻ tốt bụng và kiên nhẫn.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "Or7mGjr715W",
+            "dic_all_id": "VYPaYOdj1mM",
+            "text": "He is a nice guy.",
+            "type": "sentence",
+            "phonetic": "hiː ɪz ə naɪs ɡaɪ",
+            "sound": "https://static.langkingdom.com/media/8/6d6bae51c0e6f1e24a2ae84d1aefe02f.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Anh là một chàng trai tốt.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "ZrP04gW7ymQ",
+            "dic_all_id": "vOB0qjlZLa2",
+            "text": "But now we should work.",
+            "type": "sentence",
+            "phonetic": "bʌt naʊ wiː ʃʊd wɝːk",
+            "sound": "https://static.langkingdom.com/media/8/05fa032144c56d77d705ea11106d8df6.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Nhưng bây giờ chúng ta nên làm việc.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "82P5XeJMVm6",
+            "dic_all_id": "op3aK1k9mDq",
+            "text": "Am I right?",
+            "type": "sentence",
+            "phonetic": "æm aɪ raɪt",
+            "sound": "https://static.langkingdom.com/media/8/89b18cab6d1490b2031eb5d489cf91c8.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Tôi (nói) đúng không?"
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "dgp01Bj74a8",
+            "dic_all_id": "njWagoeX2ap",
+            "text": "Yes, I agree with you.",
+            "type": "sentence",
+            "phonetic": "jes aɪ əˈɡriː wɪð juː",
+            "sound": "https://static.langkingdom.com/media/8/a923f06fc44ec3513b02091078b7e848.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Vâng tôi đồng ý với bạn.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "Jzn5k84qOmD",
+            "dic_all_id": "7GRmPr2vzaW",
+            "text": "I'd like to team up with you.",
+            "type": "sentence",
+            "phonetic": "aɪd laɪk tuː tiːm ʌp wɪð juː",
+            "sound": "https://static.langkingdom.com/media/8/4c18221190d0fc0e32f66e314442c97e.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Tôi muốn hợp tác với bạn.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "bn6m3Ee7Waz",
+            "dic_all_id": "QLvmooyPzmK",
+            "text": "We watch out for each other.",
+            "type": "sentence",
+            "phonetic": "wiː wɑːtʃ aʊt fɔːr iːtʃ ˈʌð.ɚ",
+            "sound": "https://static.langkingdom.com/media/8/ceadc81d54dfe0ae383e9c288a42f8cb.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Chúng tôi đề phòng lẫn nhau.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "Dq3mxD2lQmV",
+            "dic_all_id": "qz70MdvW8mO",
+            "text": "You are the first partner I've cooperated with.",
+            "type": "sentence",
+            "phonetic": "juː ɑːr ðə ˈfɝːst ˈpɑːtnə aɪv koʊˈɑː.pə.reɪtɪd wɪð",
+            "sound": "https://static.langkingdom.com/media/8/fc34a47ab7a221f89f4405ac1884146f.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Bạn là đối tác đầu tiên mà tôi hợp tác.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "ygZ0WnQK6mK",
+            "dic_all_id": "ZDV5QPZL8ao",
+            "text": "I can't afford to be late for work.",
+            "type": "sentence",
+            "phonetic": "aɪ kænt əˈfɔːrd tuː biː leɪt fɔːr wɝːk",
+            "sound": "https://static.langkingdom.com/media/8/82db3193d1fae602f5da7ff323c4502a.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Tôi không gánh nổi nếu đi làm muộn đâu."
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "lG6aejzQK5e",
+            "dic_all_id": "J480poBDRmg",
+            "text": "You have a meeting at 10:00 this morning.",
+            "type": "sentence",
+            "phonetic": "juː hæv ə ˈmiːtɪŋ æt --- ðɪs ˈmɔːr.nɪŋ",
+            "sound": "https://static.langkingdom.com/media/8/73fa139825dd5cdde4fb6f492b358bd2.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Bạn có một cuộc họp lúc 10:00 sáng nay.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "xn7aVwQBE5J",
+            "dic_all_id": "lOXabKk115g",
+            "text": "Mr. White asked you to give him a phone call this afternoon.",
+            "type": "sentence",
+            "phonetic": "ˈmɪs.tɚ waɪt æskt juː tuː ɡɪv hɪm ə foʊn kɑːl ðɪs æf.tɚˈnuːn",
+            "sound": "https://static.langkingdom.com/media/8/238d675afded3fc7f8328bd6b87f1bc3.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Ông White đã yêu cầu bạn gọi điện cho ông ấy vào chiều nay."
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "OVymDGZ7k5P",
+            "dic_all_id": "LwWmdr6BxaD",
+            "text": "How are you getting along with your new friends at the office?",
+            "type": "sentence",
+            "phonetic": "haʊ ɑːr juː ˈget.ɪŋ əˈlɑːŋ wɪð jʊr nuː frendz æt ðiː ˈɑː.fɪs",
+            "sound": "https://static.langkingdom.com/media/8/ab23c68894ad787f2de33007883e71fe.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Làm thế nào để bạn hòa hợp với những người bạn mới của bạn tại văn phòng?",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "ZDVmQPlME5o",
+            "dic_all_id": "4EA5zgJpZmK",
+            "text": "I think we should watch out for each other.",
+            "type": "sentence",
+            "phonetic": "aɪ θɪŋk wiː ʃʊd wɑːtʃ aʊt fɔːr iːtʃ ˈʌð.ɚ",
+            "sound": "https://static.langkingdom.com/media/8/5be6e27d7a245b8aac2efeb02065e040.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Tôi nghĩ chúng ta nên đề phòng lẫn nhau.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "APJ07bv7Kmz",
+            "dic_all_id": "Vj6a8gOKE0A",
+            "text": "I really feel it's most important to remember that we're all in the same boat.",
+            "type": "sentence",
+            "phonetic": "aɪ ˈriː.ə.li fiːl ɪts moʊst ɪmˈpɔːr.tənt tuː rɪˈmem.bɚ ðæt wɪr ɑːl ɪn ðə seɪm boʊt",
+            "sound": "https://static.langkingdom.com/media/8/fe0cb7bebd7423eb3f2e441ca345253d.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Tôi thực sự cảm thấy điều quan trọng nhất là phải nhớ rằng tất cả chúng ta đều ở trên cùng một con thuyền.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "WLE0jz1qr0X",
+            "dic_all_id": "kp602novE0n",
+            "text": "As a newcomer, you should be modest and try to cooperate well with others.",
+            "type": "sentence",
+            "phonetic": "æz ə ˈnjuːˌkʌmə juː ʃʊd biː ˈmɒdɪst ænd traɪ tuː koʊˈɑː.pə.reɪt wel wɪð ˈʌð·ərz",
+            "sound": "https://static.langkingdom.com/media/8/3f0f16b8465745405124d3268e9ee2bf.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Là một người mới, bạn nên khiêm tốn và cố gắng hợp tác tốt với những người khác.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "4EA0zg7qLaK",
+            "dic_all_id": "Q9E0JAWjBmo",
+            "text": "We've got to concentrate all the time at work.",
+            "type": "sentence",
+            "phonetic": "ˈwiːv ɡɑːt tuː ˈkɑːn.sən.treɪt ɑːl ðə taɪm æt wɝːk",
+            "sound": "https://static.langkingdom.com/media/8/6c126d9cce475f0df78206cbcca3672b.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Chúng tôi phải tập trung toàn bộ thời gian trong công việc.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        },
+        {
+            "id": "lOXabKVBB5g",
+            "dic_all_id": "lG65ejkEOme",
+            "text": "Any careless act would lead to horrible consequences.",
+            "type": "sentence",
+            "phonetic": "ˈen.i ˈker.ləs ækt wʊd liːd tuː ˈhɔːr.ə.bəl ---",
+            "sound": "https://static.langkingdom.com/media/8/e6420addaa89f542a177382e36ac2f64.mp3",
+            "comment": "0",
+            "translation": {
+                "text": "Bất kỳ hành động bất cẩn nào cũng sẽ dẫn đến hậu quả khủng khiếp.",
+                "google_translate": 1
+            },
+            "recordStat": {
+                "voice_text": "",
+                "voice_audio": "",
+                "right": 0,
+                "wrong": 0
+            }
+        }
+    ]
+}
