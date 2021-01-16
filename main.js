@@ -42,7 +42,4 @@ const file = require('./crawl/file');
 // file.saveFile('./data/news-info-search.json', JSON.stringify(news.makeNewsInfoForSearch()));
 news.getNewsDetail().then(data => {
     console.log(data.length);
-    // data.forEach(item => {
-    //     file.saveFile(`./data/topics/${item.id}.json`, JSON.stringify(item));
-    // });
 });

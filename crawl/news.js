@@ -8,7 +8,7 @@ module.exports = {
             console.log(`https://api.langkingdom.com/video/list-all-trend?preview=1&page=${page}`);
             var config = {
                 method: 'get',
-                url: `https://api.langkingdom.com/video/list-all-videos?preview=1&page=${page}`,
+                url: `https://api.langkingdom.com/video/list-all-trend?preview=1&page=${page}`,
                 headers: {
                     'accept': 'application/json, text/plain, */*',
                     'x-app-version': '3.3.3',
