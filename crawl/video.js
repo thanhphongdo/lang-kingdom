@@ -1,4 +1,6 @@
 const axios = require('axios');
+const _ = require('underscore');
+const file = require('./file');
 
 module.exports = {
     getAllVideo() {
@@ -45,11 +47,11 @@ module.exports = {
             getTopic();
         });
     },
-    getTopicDetail() {
-        function getTopicDetailById(id) {
+    getVideoDetail() {
+        function getVideoDetailById(id) {
             var config = {
                 method: 'get',
-                url: `https://api.langkingdom.com/playlist/list-data?id=${id}`,
+                url: `https://api.langkingdom.com/video/get-video-detail?video_id=${id}`,
                 headers: {
                     'accept': 'application/json, text/plain, */*',
                     'x-app-version': '3.3.3',
@@ -59,26 +61,26 @@ module.exports = {
 
             return axios(config)
                 .then(function (response) {
-                    return response.data;
+                    return response.data.videos[0];
                 })
                 .catch(function (err) {
                     return Promise.reject(err);
                 });
         }
         function getPatchTopic(ids) {
-            console.log(ids);
+            // console.log(ids);
             const patch = ids.map(id => {
-                return getTopicDetailById(id);
+                return getVideoDetailById(id);
             });
             return Promise.all(patch);
         }
-        const topics = require('../data/topic.json');
+        const videos = require('../data/video-info.json');
         const idPatch = [];
-        for (var i = 0; i <= Math.ceil(topics.length / 10); i++) {
+        for (var i = 0; i <= Math.ceil(videos.length / 10); i++) {
             let ids = [];
             for (let j = (i - 1) * 10; j < i * 10; j++) {
-                if (topics[j]) {
-                    ids.push(topics[j].id);
+                if (videos[j]) {
+                    ids.push(videos[j].id);
                 }
             }
             idPatch.push(ids);
@@ -86,19 +88,35 @@ module.exports = {
         let count = 0;
         return new Promise((resolve, reject) => {
             let data = []
-            function getTopicDetail() {
-                getPatchTopic(idPatch[count]).then((topics) => {
-                    data = data.concat(topics)
+            function getVideoDetail() {
+                getPatchTopic(idPatch[count]).then((videos) => {
+                    data = data.concat(videos);
+                    videos.forEach(item => {
+                        file.saveFile(`./data/videos/${item.id}.json`, JSON.stringify(item));
+                    });
+                    console.log('GET PATH: ' + count);
                     count++;
                     if (count >= idPatch.length) {
                         resolve(data);
                     }
-                    getTopicDetail();
+                    getVideoDetail();
                 }).catch(() => {
                     resolve(data);
                 });
             }
-            getTopicDetail();
+            getVideoDetail();
         });
+    },
+    makeVideoInfo() {
+        const videos = require('../data/video.json');
+        return _.uniq(videos.map(item => {
+            return {
+                id: item.id,
+                url: item.url,
+                title: item.title,
+                thumbnail: item.thumbnail,
+                duration: item.duration,
+            }
+        }), 'url');
     }
 }

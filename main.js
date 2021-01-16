@@ -12,10 +12,19 @@ const file = require('./crawl/file');
 //     });
 // });
 
-video.getAllVideo().then(data => {
+// video.getAllVideo().then(data => {
+//     console.log(data.length);
+//     console.log('SAVE VIDEO...');
+//     file.saveFile('./data/video.json', JSON.stringify(data));
+// });
+
+// file.saveFile('./data/video-info.json', JSON.stringify(video.makeVideoInfo()));
+
+video.getVideoDetail().then(data => {
     console.log(data.length);
-    console.log('SAVE VIDEO...');
-    file.saveFile('./data/video.json', JSON.stringify(data));
+    // data.forEach(item => {
+    //     file.saveFile(`./data/topics/${item.id}.json`, JSON.stringify(item));
+    // });
 });
 
 // const data = require('./data/video.json');
