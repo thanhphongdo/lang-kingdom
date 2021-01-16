@@ -19,13 +19,14 @@ const file = require('./crawl/file');
 // });
 
 // file.saveFile('./data/video-info.json', JSON.stringify(video.makeVideoInfo()));
+file.saveFile('./data/video-info-search.json', JSON.stringify(video.makeVideoInfoForSearch()));
 
-video.getVideoDetail().then(data => {
-    console.log(data.length);
-    // data.forEach(item => {
-    //     file.saveFile(`./data/topics/${item.id}.json`, JSON.stringify(item));
-    // });
-});
+// video.getVideoDetail().then(data => {
+//     console.log(data.length);
+//     // data.forEach(item => {
+//     //     file.saveFile(`./data/topics/${item.id}.json`, JSON.stringify(item));
+//     // });
+// });
 
 // const data = require('./data/video.json');
 // console.log(data.length);

@@ -118,5 +118,14 @@ module.exports = {
                 duration: item.duration,
             }
         }), 'url');
+    },
+    makeVideoInfoForSearch() {
+        const videos = require('../data/video-info.json');
+        return videos.map(item => {
+            return {
+                id: item.id,
+                title: item.title
+            }
+        });
     }
 }
